@@ -22,20 +22,40 @@
     <div
       class="bg-img"
       style="
-        background-image: url(./images/bg-img.jpg);
+        background-image: linear-gradient(#44403c85, #44403c5d),
+          url(./images/bg-img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
       "
     >
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        class="navbar navbar-expand-lg sticky-top"
+        style="background-color: #6c757d9f"
+      >
         <div class="container-fluid nav-flex">
-          <a class="navbar-brand" href="#">Brand</a>
+          <a
+            class="navbar-brand text-white fs-2"
+            href="#"
+            style="font-family: Dancing Script"
+          >
+            Books
+          </a>
 
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav navbar-brand ms-auto">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Find a book</a>
+              <a
+                class="nav-link text-white"
+                aria-current="page"
+                style="font-family: Yrsa"
+                href="#"
+                >Home</a
+              >
+              <a class="nav-link text-white" style="font-family: Yrsa" href="#"
+                >Features</a
+              >
+              <a class="nav-link text-white" style="font-family: Yrsa" href="#"
+                >Find a book</a
+              >
             </div>
           </div>
         </div>
@@ -60,13 +80,10 @@
           laborum, optio quidem aperiam atque.
         </div>
 
-        <div class="row">
-          <div class="col">
-            <button class="btn btn-primary">Button</button>
-          </div>
-          <div class="col">
-            <button class="btn btn-primary">Button</button>
-          </div>
+        <div class="d-flex">
+          <button class="btn btn-outline-light me-4">View Features</button>
+
+          <button class="btn btn-secondary">Find a book</button>
         </div>
       </div>
     </div>
