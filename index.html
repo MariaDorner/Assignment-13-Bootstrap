@@ -10,41 +10,63 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Yrsa&display=swap"
+      rel="stylesheet"
+    />
     <title>Bootstrap</title>
   </head>
-  <body class="container-fluid vh-100 m-0 p-0">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid nav-flex">
-        <a class="navbar-brand" href="#">Brand</a>
+  <body class="container-fluid vh-100 m-0 p-0 has-bg-img">
+    <div
+      class="bg-img"
+      style="
+        background-image: url(./images/bg-img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      "
+    >
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav-flex">
+          <a class="navbar-brand" href="#">Brand</a>
 
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav navbar-brand ms-auto">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Find a book</a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav navbar-brand ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Find a book</a>
+            </div>
           </div>
         </div>
-      </div>
-    </nav>
-    <div
-      class="container-fluid h-100 d-flex flex-column justify-content-center align-items-center"
-    >
-      <div class="row">
-        <div class="col text-center">Find the next world to explore!</div>
-      </div>
-      <div class="row">
-        <div class="col text-center">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro
-          consequuntur nobis mollitia est earum, officia expedita pariatur
+      </nav>
+      <div
+        class="container-fluid vh-100 d-flex flex-column justify-content-center align-items-center has-bg-img"
+      >
+        <div
+          class="text-center text-white display-1"
+          style="font-family: Dancing Script"
+        >
+          Find the next world to explore!
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <button class="btn btn-primary">Button</button>
+
+        <div
+          class="col-lg-5 text-center text-white fs-5 mt-5 mb-3"
+          style="font-family: Yrsa"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          exercitationem illum provident fugit repudiandae doloribus omnis
+          nesciunt similique pariatur voluptatem sequi qui quasi nulla odit
+          laborum, optio quidem aperiam atque.
         </div>
-        <div class="col">
-          <button class="btn btn-primary">Button</button>
+
+        <div class="row">
+          <div class="col">
+            <button class="btn btn-primary">Button</button>
+          </div>
+          <div class="col">
+            <button class="btn btn-primary">Button</button>
+          </div>
         </div>
       </div>
     </div>
